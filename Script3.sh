@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #Script-3: Disk and Permission Auditor
-#Author:Avinash Singh Thakur
+#Author:Amogh Patel
 #Course:Open Source Software 
 
 #list of directories to check

@@ -1,32 +1,65 @@
-Open Source Audit Project
-👨‍🎓 Student Details
-Name: Amogh Patel
-Registration Number: 24BAI10148
-Course: Open Source Software
-🧾 Project Title
-Open Source Audit – Git
+# 📂 Open Source Audit Project – Git
 
-🔍 About the Project
-This project is focused on analyzing an open-source software, Git, and understanding its origin, license, ecosystem, and role in modern software development.
+---
 
-Along with the theoretical analysis, the project also includes five shell scripts that demonstrate practical Linux skills such as system information retrieval, package inspection, directory auditing, log analysis, and user interaction.
+## 👨‍🎓 Student Details
 
-💻 Chosen Software
-Software Name: Git
-Category: Version Control System
-License: GNU General Public License v2 (GPL v2)
-Git is a distributed version control system used to track changes in files and collaborate efficiently in software development projects.
+**Name:** Amogh Patel
+**Registration Number:** 24BAI10148
+**Course:** Open Source Software
 
-⚙️ Requirements
-Before running the scripts, make sure you have:
+---
 
-Linux environment (WSL / Ubuntu / VM)
-Git installed
-Install Git:
+## 🧾 Project Title
+
+**Open Source Audit – Git**
+
+---
+
+## 🔍 About the Project
+
+This project focuses on analyzing the open‑source software **Git** and understanding its **origin, license, ecosystem, and importance** in modern software development.
+
+Along with theoretical analysis, the project also includes **five shell scripts** demonstrating practical Linux skills such as:
+
+• System information retrieval
+• Package inspection
+• Directory auditing
+• Log analysis
+• User interaction using shell scripting
+
+---
+
+## 💻 Chosen Software
+
+**Software Name:** Git
+**Category:** Distributed Version Control System
+**License:** GNU General Public License v2 (GPL v2)
+
+Git is a powerful distributed version control system used to **track file changes, manage versions efficiently, and enable collaboration among developers worldwide.**
+
+---
+
+## ⚙️ Requirements
+
+Before running the scripts, ensure the following setup:
+
+• Linux Environment (**Ubuntu / WSL / Virtual Machine**)
+• Git installed on system
+
+### Install Git
+
+```bash
 sudo apt update
 sudo apt install git
-📂 Project Structure
-oss-audit-[rollnumber]/
+```
+
+---
+
+## 📂 Project Structure
+
+```
+oss-audit-24BAI10148/
 │
 ├── script1.sh
 ├── script2.sh
@@ -34,42 +67,93 @@ oss-audit-[rollnumber]/
 ├── script4.sh
 ├── script5.sh
 └── README.md
-🧩 Description of Scripts
-🔹 Script 1 – System Identity Report
-Displays system information such as kernel version, user name, uptime, and current date.
+```
 
-🔹 Script 2 – FOSS Package Inspector
-Checks whether Git is installed and displays its version and basic details.
+---
 
-🔹 Script 3 – Disk and Permission Auditor
-Analyzes important directories and shows their permissions and disk usage.
+## 🧩 Description of Scripts
 
-🔹 Script 4 – Log File Analyzer
-Reads a log file and counts the number of lines containing a specific keyword like "error".
+### 🔹 Script 1 – System Identity Report
 
-🔹 Script 5 – Open Source Manifesto Generator
-Takes user input and generates a personalized open-source philosophy statement.
+Displays system details such as:
 
-▶️ How to Run the Scripts
-Step 1: Make scripts executable
-chmod +x script1.sh script2.sh script3.sh script4.sh script5.sh
-Step 2: Run scripts
-./script1.sh
-./script2.sh
-./script3.sh
+• Kernel version
+• Username
+• System uptime
+• Current date & time
+
+---
+
+### 🔹 Script 2 – FOSS Package Inspector
+
+Checks whether **Git** is installed and displays:
+
+• Installation status
+• Git version
+• Basic package information
+
+---
+
+### 🔹 Script 3 – Disk and Permission Auditor
+
+Analyzes important directories and shows:
+
+• Directory permissions
+• Disk usage statistics
+
+---
+
+### 🔹 Script 4 – Log File Analyzer
+
+Reads a system log file and counts lines containing a keyword like:
+
+```
+error
+```
+
+Example:
+
+```bash
 ./script4.sh /var/log/syslog
-./script5.sh
-📸 Output
+```
+
+---
+
+### 🔹 Script 5 – Open Source Manifesto Generator
+
+Takes user input and generates a personalized **open‑source philosophy statement**.
+
+---
+
+# 📸 Output
+
 Each script produces output directly in the terminal. Screenshots of outputs are included in the project report.
 
-🌐 Learning Outcomes
-Understanding of open-source software and licensing
-Practical experience with Linux commands
-Basic shell scripting skills
-Knowledge of Git and version control systems
-📌 Conclusion
-This project helped in understanding the importance of open-source software and how tools like Git play a crucial role in modern development. It also provided hands-on experience in Linux and shell scripting.
+---
 
-🔗 Submission
-GitHub Repository Link: https://github.com/Amogh7110/OSS-Audit-24BAI10148.git
-Project Report: Submitted separately as PDF on VITyarthi portal
+# 🌐 Learning Outcomes
+
+• Understanding of open‑source software and licensing
+• Practical experience with Linux commands
+• Basic shell scripting skills
+• Knowledge of Git and version control systems
+
+---
+
+# 📌 Conclusion
+
+This project helped in understanding the importance of open‑source software and how tools like **Git** play a crucial role in modern development. It also provided hands‑on experience in Linux and shell scripting.
+
+---
+
+# 🔗 Submission Links
+
+**GitHub Repository:**
+[https://github.com/Amogh7110/OSS-Audit-24BAI10148.git](https://github.com/Amogh7110/OSS-Audit-24BAI10148.git)
+
+**Project Report:**
+Submitted separately as PDF on **VITyarthi Portal**
+
+---
+
+⭐ *Prepared as part of Open Source Software coursework submission*

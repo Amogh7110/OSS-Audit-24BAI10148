@@ -71,5 +71,5 @@ Knowledge of Git and version control systems
 This project helped in understanding the importance of open-source software and how tools like Git play a crucial role in modern development. It also provided hands-on experience in Linux and shell scripting.
 
 🔗 Submission
-GitHub Repository Link: 
+GitHub Repository Link: https://github.com/Amogh7110/OSS-Audit-24BAI10148.git
 Project Report: Submitted separately as PDF on VITyarthi portal

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #Script 5: Open Source Manifesto Generator
-#Author: Avinash Singh Thakur
+#Author: Amogh Patel
 #Course: Open Source Software
 
 echo "Answer three questions to generate your manifesto."
